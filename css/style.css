@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background: #5CBAFF;
+}
+nav{
+
+text-align: center;
+}
+nav ul{
+
+LIST-STYLE: NONE;
+
+overflow: hidden;
+
+display: inline-block;
+}
+nav ul li
+{float:left;vertical-align: middle;padding: 10px;}
+nav ul li a{
+    
+TEXT-DECORATION: NONE;
+    
+MARGIN: 10PX;
+    
+TEXT-TRANSFORM: uppercase;
+padding: 5px;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #0093ff;
+}
+nav ul li a img{
+    
+width: 100px;
+}
+
+.content{
+
+height: 680px;
+}
+.images{
+    
+width: 40%;
+    
+height: 100%;
+    
+float: left;
+    
+background: #5CBAFF;
+}
+.images img{
+    
+width: 80%;
+    
+padding: 40px;
+    
+padding-top: 50px;
+}
+.form{
+
+width: 60%;
+
+height: 100%;
+
+float: right;
+
+background: #0093ff;
+
+position: relative;
+}
+.contact_form{
+
+width: 40%;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+}
+.contact_form h4{
+
+color: #ffff;
+
+text-transform: capitalize;
+
+font-size: 30px;
+
+padding-bottom: 10px;
+}
+
+.contact_form h5{
+
+color: #ffff;
+
+font-size: 20px;
+
+padding-bottom: 10px;
+}
+.contact_form p{
+
+color: #ffff;
+
+padding-bottom: 10px;
+}
+.contact_form form{
+
+}
+.contact_form form input{
+
+width: 100%;
+
+height: 30px;
+
+margin-bottom: 9px;
+}
